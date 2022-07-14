@@ -1,10 +1,24 @@
+let url = "https://rickandmortyapi.com/api/character"
+
 const pullData = async () => {
   try {
-    console.log("Hello")
+    const response = await fetch(url)
+    console.log(response)
+
+    const data = await response.json()
+    console.log(data)
+
+    data.results.map((character) => {
+      console.log(character)
+    })
   } catch (error) {
-    console.log("Error")
+    console.log(error)
   }
 }
+
+pullData()
+
+// CallStack - Pila de Ejecucion.
 
 /*
 const traerDatos = async () => {
