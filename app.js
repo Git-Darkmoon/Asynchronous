@@ -1,3 +1,12 @@
+const pullData = async () => {
+  try {
+    console.log("Hello")
+  } catch (error) {
+    console.log("Error")
+  }
+}
+
+/*
 const traerDatos = async () => {
   try {
     const response = await fetch(url)
@@ -8,3 +17,4 @@ const traerDatos = async () => {
     })
   } catch (error) {}
 }
+*/
