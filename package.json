@@ -1,0 +1,17 @@
+{
+  "name": "asynchronism-js",
+  "version": "1.0.0",
+  "description": "Developing the Platzi course of asynchronism",
+  "main": "src/index.js",
+  "scripts": {
+    "callback": "node src/callback/index.js",
+    "async": "node src/async/challenge.js"
+  },
+  "keywords": [
+    "callbacks",
+    "promise",
+    "async"
+  ],
+  "author": "Nicolas Mayorga ~ Darkmoon",
+  "license": "ISC"
+}
